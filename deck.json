@@ -1,0 +1,375 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "0e7effd2-7c55-11eb-a1ff-4845201b0765",
+    "deck_config_uuid": "ee98b8a0-7ab7-11eb-96e5-4845201b0765",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "ee98b8a0-7ab7-11eb-96e5-4845201b0765",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 13,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [
+        "latex-73bb9786b86b42b6e1df73b41f300cde4630e3b5.png",
+        "paste-39e1ca5c2e596263318fb7f550c1d08075132160.jpg"
+    ],
+    "name": "jaio",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Basic",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [
+                "wyklad1"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Front}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję&nbsp;<i>alfabetu</i>",
+                "Dowolny zbiór, którego elementy nazywamy <i>literami</i> lub <i>symbolami. </i>np. {<i>a</i>, <i>b</i>, <i>c</i>}"
+            ],
+            "guid": "uYt*fmdMs#",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Czym jest <i>Słowo </i>nad alfabetem <i>A?</i>",
+                "Jest to skończony ciąg liter z alfabetu <i>A</i>, np. <i>010110 </i>jest słowem nad alfabetem <i>{0,1}</i>"
+            ],
+            "guid": "HxPAlF,JS=",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Czym jest skończony ciąg liter z alfabetu <i>A?</i>",
+                "Słowo"
+            ],
+            "guid": "GWj/R#e]&9",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak nazywamy słowo długości 0?",
+                "Puste słowo"
+            ],
+            "guid": "qfx3nOCVSB",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jakim symbolem oznaczamy puste słowo?",
+                "ε"
+            ],
+            "guid": "xew5/Ga3f>",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Jak nazywamy zbiór słów nad danym alfabetem?",
+                "Język"
+            ],
+            "guid": "kg.^I0uWHr",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj jak oznaczamy zbiór wszystkich słów nad alfabetem <i>A</i>",
+                "<i>A<sup>*</sup></i>"
+            ],
+            "guid": "j?iPiu2m-4",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję języka nad alfabetem <i>A</i>",
+                "Zbiór słów, formalnie: dowolny podzbiór <i>L&nbsp;</i>⊆ <i>A<sup>*</sup></i>"
+            ],
+            "guid": "l3V:0->D+N",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję konkatenacji słów <i>u = a<span style=\"font-size: 16.6667px;\"><sub>1</sub></span>a</i><i><span style=\"font-size: 16.6667px;\"><sub>2</sub>...</span>a<span style=\"font-size: 13.8889px;\"><sub>n</sub></span></i><i>&nbsp;</i>oraz&nbsp;<i>v</i><i>&nbsp;= b<span style=\"font-size: 16.6667px;\"><sub>1</sub></span></i><i>b<span style=\"font-size: 16.6667px;\"><sub>2</sub></span>...</i><i>b<span style=\"font-size: 16.6667px;\"><sub>n</sub></span></i>",
+                "u • v =&nbsp;<i>a<sub>1</sub>a</i><i><sub>2</sub>...a<sub>n</sub></i><i>b<sub>1</sub></i><i>b<sub>2</sub>...</i><i>b<sub>n</sub></i>"
+            ],
+            "guid": "xgwNlb1oIF",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj czym jest suma języków <i>K </i>oraz<i> L (K + L)</i>",
+                "jest to teoriomnogościowa suma <i>K&nbsp;∪ L (</i>język to zbiór słów<i>)</i>"
+            ],
+            "guid": "D%6r&(dTQ,",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj czym jest konkatenacja języków <i>K oraz L</i>&nbsp;",
+                "<i>K · L =&nbsp;</i><i>{v · w | v ∈ K, w ∈ L}</i>"
+            ],
+            "guid": "bl|AZ1[8|r",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj czym jest&nbsp;<i>L</i><sup style=\"font-style: italic;\">* </sup>gdzie <i>L</i>&nbsp;jest językiem",
+                "[$$]\\bigcup_{n\\geq 0} L^n, L^n = L \\cdot L \\dots L \\cdot L [/$$]<br>"
+            ],
+            "guid": "wP[Xz{xhhV",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj czym jest wyrażenie regularne",
+                "Jest to wyrazenie zbudowane rekurencyjnie, za pomocą operacji<i> K + L</i>,<i> K · L</i>, <i>L<sup>*</sup></i>, poszczególnych liter alfabetu i języka pustego&nbsp;∅<div>np. <i>(a · b)<sup>*</sup> + (b · a)<sup>*</sup></i></div>"
+            ],
+            "guid": "t/[K>$e!v2",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj czym jest oznaczenie <i>L(W) </i>gdzie <i>W </i>to wyrażenie regularne",
+                "Język związany z danym wyrażeniem regularnym, definiowany indukcyjnie po budowie wyrażenia"
+            ],
+            "guid": "fpT2`mB*#;",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj czym jest L(∅<sup>*</sup>)",
+                "{ε}"
+            ],
+            "guid": "rYxr^L[kkZ",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj czym jest <i>L((a + b)<sup>*</sup>)</i>",
+                "<i>{a,b}<sup>*</sup></i>"
+            ],
+            "guid": "vq.1,8g,9j",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję języka regularnego",
+                "Język postaci <i>L(K) </i>gdzie <i>K</i>&nbsp;to dowolne wyrażenie regularne"
+            ],
+            "guid": "F2,x6NjUC=",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję skończonego automatu niedeterministycznego (NFA)",
+                "Uporządkowana piątka <i>&lt;A, Q, I, F,</i>&nbsp;𝛿&gt;<div><i>A = </i>alfabet</div><div><i>Q = </i>skończony zbiór stanów</div><div><i>I&nbsp;</i>⊆Q = zbiór stanów początkowych</div><div><i>F&nbsp;</i>⊆Q = zbiór stanów końcowych</div><div><i>δ ⊆ Q × A × Q&nbsp; = </i>relacja przejścia<i>&nbsp;</i><br></div>"
+            ],
+            "guid": "s+dFe(j8hr",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję biegu automatu <i><b>A</b> = &lt;A, Q, I, F,&nbsp;</i>δ&gt; po słowie <i>w</i>∈<i>A<sup>*</sup></i>",
+                "ciąg stanów:<div><img src=\"paste-39e1ca5c2e596263318fb7f550c1d08075132160.jpg\"><br></div><div>gdzie <i>w = a</i><sub style=\"font-style: italic;\">1</sub><i>a</i><sub style=\"font-style: italic;\">2</sub><i>...a</i><span style=\"font-size: 16.6667px;\"><i style=\"vertical-align: sub;\">n</i></span></div><div><span style=\"font-size: 16.6667px;\">oraz dla każdego</span><i style=\"\"> <span style=\"font-size: 16.6667px;\">i: ( q</span><sub style=\"font-size: 16.6667px;\">i-1</sub><span style=\"font-size: 16.6667px;\">, a</span><sub style=\"font-size: 16.6667px;\">i</sub><span style=\"font-size: 16.6667px;\">, q</span><span style=\"font-size: 13.8889px;\"><sub>i&nbsp;</sub>)&nbsp;</span></i>∈δ</div>"
+            ],
+            "guid": "y,PXCG5UUo",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj kiedy bieg automatu jest akceptowalny?",
+                "kiedy pierwszy stan należy do stanów startowych oraz ostatni stan należy do stanów końcowych"
+            ],
+            "guid": "h~o[nzH)EO",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "fields": [
+                "Podaj definicję języka automatu <i style=\"\"><b>A </b>= &lt;A, Q, I, F,&nbsp;</i>δ&gt;",
+                "Zbiór wszystkich słów <i>w&nbsp;∈ A</i><sup style=\"font-style: italic;\">*</sup><sub>&nbsp;</sub>dla których istnieje bieg akceptujący w automacie <b><i>A</i></b>"
+            ],
+            "guid": "K::cd$D[/9",
+            "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
+            "tags": [
+                "wyklad1"
+            ]
+        }
+    ]
+}
