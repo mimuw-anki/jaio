@@ -123,7 +123,7 @@
             "__type__": "Note",
             "fields": [
                 "Podaj definicję&nbsp;<i>alfabetu</i>",
-                "Dowolny zbiór, którego elementy nazywamy <i>literami</i> lub <i>symbolami. </i>np. {<i>a</i>, <i>b</i>, <i>c</i>}"
+                "Dowolny zbiór, którego elementy nazywamy <i>literami</i> lub <i>symbolami</i>. np. {<i>a</i>, <i>b</i>, <i>c</i>}"
             ],
             "guid": "uYt*fmdMs#",
             "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
@@ -134,8 +134,8 @@
         {
             "__type__": "Note",
             "fields": [
-                "Czym jest <i>Słowo </i>nad alfabetem <i>A?</i>",
-                "Jest to skończony ciąg liter z alfabetu <i>A</i>, np. <i>010110 </i>jest słowem nad alfabetem <i>{0,1}</i>"
+                "Czym jest <i>Słowo</i> nad alfabetem <i>A</i>?",
+                "Jest to skończony ciąg liter z alfabetu <i>A</i>, np. <i>010110</i>jest słowem nad alfabetem <i>{0,1}</i>"
             ],
             "guid": "HxPAlF,JS=",
             "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
@@ -146,7 +146,7 @@
         {
             "__type__": "Note",
             "fields": [
-                "Czym jest skończony ciąg liter z alfabetu <i>A?</i>",
+                "Czym jest skończony ciąg liter z alfabetu <i>A</i>?",
                 "Słowo"
             ],
             "guid": "GWj/R#e]&9",
@@ -207,7 +207,7 @@
             "__type__": "Note",
             "fields": [
                 "Podaj definicję języka nad alfabetem <i>A</i>",
-                "Zbiór słów, formalnie: dowolny podzbiór <i>L&nbsp;</i>⊆ <i>A<sup>*</sup></i>"
+                "Zbiór słów, formalnie: dowolny podzbiór <i>L</i> ⊆ <i>A<sup>*</sup></i>"
             ],
             "guid": "l3V:0->D+N",
             "note_model_uuid": "ee9934c4-7ab7-11eb-96e5-4845201b0765",
