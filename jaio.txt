@@ -1,0 +1,80 @@
+1
+Podaj definicję alfabetu
+Dowolny zbiór, którego elementy nazywamy literami lub symbolami. np. \(\{a, b, c\}\)
+
+2
+Jak nazywamy słowo długości 0?
+Puste słowo
+
+3
+Jakim symbolem oznaczamy puste słowo?
+ε
+
+4
+Jak nazywamy zbiór słów nad danym alfabetem?
+Język
+
+5
+Podaj jak oznaczamy zbiór wszystkich słów nad alfabetem \(A\)
+\(A^*\)
+
+6
+Podaj definicję języka nad alfabetem A
+Zbiór słów, formalnie: dowolny podzbiór \(L \subseteq A^*\)
+
+7
+Podaj definicję konkatenacji słów \(u = a_1a_2...a_n\) oraz \(v = b_1b_2...b_n\)
+\(u \cdot v = a_1a_2...a_nb_1b_2...b_n\)
+
+8
+Podaj czym jest \(L^*\) gdzie \(L\) jest językiem
+\[\bigcup_{n\geq 0} L^n, L^n = L \cdot L \dots L \cdot L \]
+
+9
+Podaj czym jest wyrażenie regularne
+Jest to wyrazenie zbudowane rekurencyjnie, za pomocą operacji \( K + L, K \cdot L, L^*\) poszczególnych liter alfabetu i języka pustego ∅ np. \((a · b)^* + (b · a)^* \)
+
+10
+Podaj definicję języka regularnego
+Język postaci \(L(K)\) gdzie \(K\) to dowolne wyrażenie regularne
+
+11
+Podaj definicję skończonego automatu niedeterministycznego (NFA)
+Uporządkowana piątka \(\left<A, Q, I, F, 𝛿\right>\) \(A\): alfabet \(Q\): skończony zbiór stanów \(I \subseteq Q\): zbiór stanów początkowych \(F \subseteq Q\): zbiór stanów końcowych \(δ \subseteq Q \times A \times Q\): relacja przejścia
+
+12
+Podaj kiedy bieg automatu jest akceptowalny?
+kiedy pierwszy stan należy do stanów startowych oraz ostatni stan należy do stanów końcowych
+
+13
+Podaj definicję języka automatu \(A = \left<A, Q, I, F, δ\right>\)
+Zbiór wszystkich słów \(w \in A^*\) dla których istnieje bieg akceptujący w automacie \(A^*\)
+
+14
+Czym jest Słowo nad alfabetem \(A\)?
+Jest to skończony ciąg liter z alfabetu \(A\), np. \(010110\) jest słowem nad alfabetem \(\{0,1\}\)
+
+15
+Czym jest skończony ciąg liter z alfabetu \(A\)?
+Słowo
+
+16
+Podaj czym jest suma języków \(K\) oraz \(L\) \((K + L)\)
+jest to teoriomnogościowa suma \(K \cup L \) (język to zbiór słów)
+
+17
+Podaj czym jest konkatenacja języków \(K\) oraz \(L\)
+\(K \cdot L = \{v \cdot w | v \in K, w \in L\}\)
+
+18
+Podaj czym jest oznaczenie \(L(W)\) gdzie \(W\) to wyrażenie regularne
+Język związany z danym wyrażeniem regularnym, definiowany indukcyjnie po budowie wyrażenia
+
+19
+Podaj czym jest \(L(\emptyset^*)\)
+\(\{\epsilon\}\)
+
+20
+Podaj czym jest \(L((a + b)^*)\)
+\(\{a,b\}^*\)
+
