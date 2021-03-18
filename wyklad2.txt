@@ -16,7 +16,7 @@ Kiedy generują te same języki, czyli \(L(A) = L(A')\).
 
 4
 Czym jest automat z \(A'\) z \(\epsilon\)-przejściami?
-Jest to taki automat który posiada przejścia postaci \(p \xrightarrow{\epsilon} q\), takie przejście pozwala na zmianę obecnego stanu bez wczytywania litery.
+Jest to taki automat, który posiada przejścia postaci \(p \xrightarrow{\epsilon} q\), takie przejście pozwala na zmianę obecnego stanu bez wczytywania litery.
 
 5
 Jak powiązane są idee automatu z \(\epsilon\)-przejściami i automatu bez tych przejść?
