@@ -1,3 +1,7 @@
+deck_id: 2042502137
+deck_name: Języki, Automaty i Obliczenia
+file_id: wyklad-1
+
 1
 Podaj definicję alfabetu
 Dowolny zbiór, którego elementy nazywamy literami lub symbolami. np. \(\{a, b, c\}\)
