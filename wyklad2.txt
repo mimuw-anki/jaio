@@ -1,0 +1,27 @@
+deck_id: 2042502137
+deck_name: Języki, Automaty i Obliczenia
+file_id: wyklad-2
+
+1
+Co implikuje to że dla danego języka \(L\) istnieje automat który ten język generuje?
+To oznacza że język (\L\) jest regularny.
+
+2
+Co implikuje to że język \(L\) jest regularny?
+To oznacza że dany język jest generowany przez pewien automat.
+
+3
+Kiedy możemy powiedzieć że automaty \(A\) oraz \(A'\) są równoważne?
+Kiedy generują te same języki, czyli \(L(A) = L(A')\).
+
+4
+Czym jest automat z \(A'\) z \(\epsilon\)-przejściami?
+Jest to taki automat, który posiada przejścia postaci \(p \xrightarrow{\epsilon} q\), takie przejście pozwala na zmianę obecnego stanu bez wczytywania litery.
+
+5
+Jak powiązane są idee automatu z \(\epsilon\)-przejściami i automatu bez tych przejść?
+Jeżeli \(A\) to automat z \(\epsilon\)-przejściami, to zawsze istnieje równoważny automat bez \(\epsilon\)-przejść. (Intuicja: algorytm zamiany to DFS na każdym wierzchołku po możliwych \(\epsilon\)-przejściach).
+
+6
+Czym się różni definicja automatu deterministycznego od niedeterministycznego?
+1. Zamiast zbioru stanów początkowych jest jeden stan początkowy. <br> 2. Zamiast relacji przejścia jest funkcja przejścia \(\delta: Q \times A \rightarrow Q\).
