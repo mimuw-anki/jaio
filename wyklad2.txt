@@ -12,7 +12,7 @@ To oznacza że dany język jest generowany przez pewien automat
 
 3
 Kiedy możemy powiedzieć że automaty \(A\) oraz \(A'\) są równoważne?
-Kiedy generują te same języki, czyli \(L(A) = L(A'\)
+Kiedy generują te same języki, czyli \(L(A) = L(A')\)
 
 4
 Czym jest automat z \(A'\) z \(\epsilon\)-przejściami?
