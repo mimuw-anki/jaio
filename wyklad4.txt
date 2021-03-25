@@ -1,0 +1,23 @@
+deck_id: 2042502137
+deck_name: Języki, Automaty i Obliczenia
+file_id: wyklad-4
+
+1
+Jak sprawdzić czy dany język regularny posiada chociaż jedno słowo?
+Bierzemy automat niedeterministyczny generujący ten język, i sprawdzamy czy jakiś stan końcowy jest osiągalny (w sensie grafowym) z dowolnego stanu początkowego. 
+
+2
+Jak sprawdzić czy dany język regularny zawiera dowolne słowo?
+Tworzymy automat deterministyczy dla dopełnienia tego języka, i sprawdzamy czy to dopełnienie jest puste. (sprawdzamy czy istnieje chociaż jedna ścieżka od stanu początkowego do końcowego)
+
+3
+Podaj definicję kongruencji syntaktycznej.
+\(u \sim_L v \iff  \forall w \in A^* u \cdot w \in L \iff v \cdot w \in L\)
+
+4
+Jakim rodzajem relacji jest kongruencja syntaktyczna?
+Jest relacją równoważności.
+
+5
+Co oznacza to że iloraz języka przy relacji kongruencji syntaktycznej jest skończony?
+To oznacza że ten język jest regularny.
